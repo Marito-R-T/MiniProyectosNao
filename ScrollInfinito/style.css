@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+#content {
+    margin: 20px auto;
+    width: 90%;
+}
+  
+.item {
+    /*background-color: lightgray;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;*/
+    background-color: lightgray;
+    height: 200px;
+}
+  
