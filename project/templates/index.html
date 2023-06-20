@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paint App</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <div class="colors">
+        <button class="color-button" data-color="#000000"></button>
+        <button class="color-button" data-color="#d40000"></button>
+        <button class="color-button" data-color="#21a700"></button>
+        <button class="color-button" data-color="#1000eb"></button>
+    </div>
+    <div id="color-chooser">
+        <input type="color" id="color-input" value="#000000">
+    </div>
+    <div id="brush-size-controls">
+        <button id="decrease-brush-size">-</button>
+        <input type="range" id="brush-size-slider" min="1" max="20" value="5">
+        <button id="increase-brush-size">+</button>
+    </div>
+      
+    <div class="painting">
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+    <div class="tools">
+        <button id="fill-button">Relleno</button>
+    </div>
+    
+    <script src="static/scriptdos.js"></script>
+</body>
+</html>

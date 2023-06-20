@@ -1,0 +1,98 @@
+#canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+}
+
+.painting {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.colors {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+.color-button {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+  
+.colors .color-button[data-color="#000000"] {
+    background-color: #000000;
+}
+  
+.colors .color-button[data-color="#d40000"] {
+    background-color: #d40000;
+}
+  
+.colors .color-button[data-color="#21a700"] {
+    background-color: #21a700;
+}
+  
+.colors .color-button[data-color="#1000eb"] {
+    background-color: #1000eb;
+}
+  
+.tools {
+    display: flex;
+    justify-content: center;
+}
+  
+.tools button {
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.tools button.active {
+    background-color: #ccc;
+}
+
+#brush-size-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+#brush-size-controls button {
+    font-size: 16px;
+    padding: 4px 8px;
+    margin: 0 5px;
+}
+  
+#brush-size-slider {
+    width: 150px;
+    margin: 0 10px;
+}
+
+#color-chooser {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+#color-input {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+    
+  
